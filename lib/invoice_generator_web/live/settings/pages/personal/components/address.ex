@@ -1,7 +1,7 @@
 defmodule InvoiceGeneratorWeb.SettingsLive.BusinessAddressDetails do
   alias InvoiceGenerator.{Helpers, Profile, Repo}
 
-  alias InvoiceGenerator.Profile.UserProfile
+  # alias InvoiceGenerator.Profile.UserProfile
 
   use InvoiceGeneratorWeb, :live_component
 
