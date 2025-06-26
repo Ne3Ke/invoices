@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./radio.css";
+
+/* This file is for your main application CSS */
+
+/* League Spartan Font Classes */
+.league-spartan-bold {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.league-spartan-medium {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* -------------------- */
+
+.center-element {
+  margin: 0 auto;
+}
